@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="">
+        <title>Exemplo tabela</title>
+        <style>
+            #disciplinas{
+                font-family: Arial, Helvetica, sans-serif;
+                border-collapse: collapse;
+                width: 80%;
+            }
+            #disciplinas th, #disciplinas td{
+                border: 1px solid black;
+                padding: 8px;
+            }
+            #disciplinas tr:nth-child(even){
+                background-color: #f2f2f2;
+            }
+            #disciplinas tr:hover{
+                background-color: #ccc;
+            }
+            #disciplinas th{
+                background-color: blue;
+                color: white;
+            }
+        </style>
+    </head>
+    <body>
+        <table id="disciplinas">
+            <tr>
+                <th scope='col'>Disciplina</th>
+                <th scope='col'>Professor</th>
+                <th scope='col'>Horário</th>
+            </tr>
+            <tr>
+                <td>Aplicações para internet</td>
+                <td>A</td>
+                <td>Segunda-feira às 8h</td>
+            </tr>
+            <tr>
+                <td>Programação de computadores</td>
+                <td>B</td>
+                <td>Terça-feira às 8h</td>
+            </tr>
+            <tr>
+                <td>Lógica computacional</td>
+                <td>C</td>
+                <td>Quarta-feira às 8h</td>
+            </tr>
+            <tr>
+                <td>Organização e arquitetura de computadores</td>
+                <td>D</td>
+                <td>Quinta-feira às 8h</td>
+            </tr>
+            <tr>
+                <td>Pensamento computacional</td>
+                <td>E</td>
+                <td>Sexta-feira às 8h</td>
+            </tr>
+        </table>
+    </body>
+</html>

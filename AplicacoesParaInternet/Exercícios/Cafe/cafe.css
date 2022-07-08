@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+            body{
+                background-color: white;
+            }
+
+            #container{
+                width: 100%;
+                margin: 0 auto;
+                background-color: white;
+            }
+            #img-background{
+                width: 80%;
+                height: 600px;
+                position: relative;
+                background-image: url(https://i.ibb.co/Zmjnz0S/cofee.jpg);
+                background-position: center;
+                border-bottom: 5px solid #591902;
+            }
+            #titulo{
+                background-color: #BF571B99;
+                width: 400px;
+                position: absolute;
+                top: 300px;
+            }
+            #titulo h1{
+                font-family: 'Berkshire Swash';
+                color: white;
+                text-align: center;
+            }
+
+            h2{
+                font-family: 'Berkshire Swash';
+            }
+            p{
+                font-family: 'Dancing Script';
+                text-align: justify;
+            }
+            .linha{
+                width: 300px;
+                height: 1px;
+                margin-left: 0px;
+            }
+            .img-float{
+                float: left;
+                border-radius: 10px;
+            }
+            .clear{
+                clear: both;
+            }
+
+            #nometabela{
+                color: white;
+                text-align: center;
+            }
+            #tabela{
+                font-family: 'Times New Roman', Times, serif;
+                border-collapse: collapse;
+                width: 623px;
+                font-family: 'Dancing Script';
+            }
+            #tabela th, #tabela td{
+                border: 1px solid white;
+                padding: 8px;
+            }
+            #nometabela{
+                background-color: #732C02;
+            }
+            .linhatabela{
+                background-color: #F29D35;
+            }

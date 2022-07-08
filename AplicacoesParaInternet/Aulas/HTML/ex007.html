@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>Formulários</title>
+    </head>
+    <body>
+        <h1>Exemplo de Formulário básico</h1>
+        <form action="">
+            <input type="text">
+            <button>Enviar</button>
+        </form>
+        <h1>Envio de Formulário GET</h1>
+        <form action="pagina.php" method="GET">
+            Nome: <input type="text" name="nome"> <br>
+            Senha: <input type="password" name="senha"> <br>
+            <button>Enviar</button>
+        </form>
+        <h1>Envio de Formulário POST</h1>
+        <form action="pagina.php" method="POST">
+            Nome: <input type="text" name="nome"> <br>
+            Senha: <input type="password" name="senha"> <br>
+            <button>Enviar</button>
+        </form>
+        <h1>Formulário Simples</h1>
+        <form action="pagina.php" method="POST">
+            Nome: <input type="text" name="nome" placeholder="Insira seu nome aqui" required> <br>
+            Senha: <input type="password" name="senha" placeholder="Insira a senha aqui" required maxlength="20"> <br>
+            <button>Enviar</button>
+        </form>
+        <h1>Envio de Opinião</h1>
+        <form action="pagina.php" method="POST">
+            Nome: <input type="text" name="nome" placeholder="Insira seu nome aqui" required> <br>
+            Email: <input type="email" name="email" placeholder="Insira seu email aqui" required> <br>
+            Opinião: <br>
+            <textarea cols="50" rows="10"></textarea> <br>
+            <button>Enviar</button>
+        </form>
+        <h1>Radio Buttons</h1>
+        <form action="">
+            Escolha um curso <br>
+            <input type="radio" name="linguagem" value="HTML"> HTML <br>
+            <input type="radio" name="linguagem" value="CSS"> CSS <br>
+            <input type="radio" name="linguagem" value="JavaScript"> JavaScript <br>
+        </form>
+        <h1>Seleção</h1>
+        <form action="">
+            <select name="Estado">
+                <option value="PB">PB</option>
+                <option value="PE">PE</option>
+                <option value="RN">RN</option>
+            </select>
+        </form>
+        <h1>Label, Fieldset, Legend</h1>
+        <label for="nome">Nome</label>
+        <input id="nome" type="text" name="nome">
+    </body>
+</html>

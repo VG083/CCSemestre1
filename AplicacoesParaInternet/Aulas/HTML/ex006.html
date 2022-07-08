@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>Tabelas</title>
+    </head>
+    <body>
+        <h1>Estudando Tabelas</h1>
+        <h2>Tabela de Disciplinas e Professores</h2>
+        <table border="1" width="400">
+            <tr>
+                <th>Disciplina</th>
+                <th>Professor</th>
+            </tr>
+            <tr>
+                <td>Aplicações para Internet</td>
+                <td>Thiago</td>
+            </tr>
+            <tr>
+                <td>Pensamento Computacional</td>
+                <td>Walter</td>
+            </tr>
+        </table>
+        <h2>Valores de Ingresso de Cinema</h2>
+        <table border="1">
+            <tr>
+                <!-- Primeira Linha -->
+                <th scope="col"></th>
+                <th scope="col">Segunda</th>
+                <th scope="col">Terça</th>
+                <th scope="col">Quinta</th>
+                <th scope="col">Sexta</th>
+                <th scope="col">Sábado</th>
+                <th scope="col">Domingo</th>
+            </tr>
+            <tr>
+                <!-- Segunda Linha -->
+                <th scope="row">Inteira - 2D</th>
+                <td>R$ 20,00</td>
+                <td>R$ 20,00</td>
+                <td>R$ 20,00</td>
+                <td>R$ 20,00</td>
+                <td>R$ 20,00</td>
+                <td>R$ 20,00</td>
+            </tr>
+            <tr>
+                <!-- Terceira Linha -->
+                <th scope="row">Criança / Estudante / Sênior - 2D</th>
+                <td>R$ 10,00</td>
+                <td>R$ 10,00</td>
+                <td>R$ 10,00</td>
+                <td>R$ 10,00</td>
+                <td>R$ 10,00</td>
+                <td>R$ 10,00</td>
+            </tr>
+        </table>
+        <h2>Tabela de Horários</h2>
+        <table border="1">
+            <caption><strong>Horários</strong></caption>
+            <tr>
+                <th scope="col"></th>
+                <th scope="col">08h00</th>
+                <th scope="col">09h00</th>
+                <th scope="col">10h00</th>
+                <th scope="col">11h00</th>
+            </tr>
+            <tr>
+                <th scope="row">Segunda</th>
+                <td colspan="2">Aplicações para Internet</td>
+                <td colspan="2">Programação de Computadores</td>
+            </tr>
+            <tr>
+                <th scope="row">Terça</th>
+                <td colspan="4">Aplicações para Internet</td>
+            </tr>
+            <tr>
+                <th scope="row">Quarta</th>
+                <td colspan="4">Programação para Computadores</td>
+            </tr>
+        </table>
+        <h2>Tabela de Produtos e Valores</h2>
+        <table border="1">
+            <tr>
+                <th scope="col" colspan="3">Produtos</th>
+            </tr>
+            <tr>
+                <th scope="col">Categoria</th>
+                <th scope="col">Nome</th>
+                <th scope="col">Preço</th>
+            </tr>
+            <tr>
+                <td rowspan="2">Video Game</td>
+                <td>Playstation 5</td>
+                <td>R$ 4.000</td>
+            </tr>
+            <tr>
+                <td>Xbox Series X</td>
+                <td>R$ 5.000</td>
+            </tr>
+        </table>
+    </body>
+</html>

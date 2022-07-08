@@ -1,0 +1,22 @@
+Questão 1:
+p{
+    text-align: center;
+    font-size: 20px;
+    color: red;
+}
+
+Questão 2:
+Padding
+
+Questão 3:
+<input type="radio">
+
+Questão 4:
+.texto{
+    border-right: dashed 10px blue;
+    border-left: dotted 10px red;
+}
+
+Questão 5:
+a) O fragmento do código entendido por css é tudo o que está imposto entre os atributos <style> e </style>
+b) Uma página com fundo azul, um título escrito "2ª Avaliação" acima de uma linha e abaixo da linha um parágrafo escrito "Prova Html e Css"

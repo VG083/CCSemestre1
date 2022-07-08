@@ -1,0 +1,9 @@
+/*Regra CSS nos paragrafos <p>*/
+p{
+    color: blue;
+    font-size: 20px;
+}
+/*Regra CSS nos cabeçalhos <h1>*/
+h1{
+    background-color: aquamarine;
+}
